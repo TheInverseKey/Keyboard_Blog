@@ -4,10 +4,10 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@font-face {
-     font-family: 'BoomBox';
-     src: url('BoomBoxFree.ttf') format('truetype'), url('BoomBoxFree.otf') format('opentype'), url('BoomBoxFree.woff2') format('woff2');
-}
+ @font-face {
+    font-family: myFirstFont;
+    src: url(BoomBoxFree.ttf);
+ }
 
 
  :root {
@@ -44,7 +44,7 @@
  box-sizing:border-box
 }
 html {
- font-family:'BoomBox';
+ font-family: ;
  line-height:1.15;
  -webkit-text-size-adjust:100%;
  -webkit-tap-highlight-color:transparent
@@ -63,7 +63,7 @@ section {
 }
 body {
  margin:0;
- font-family:'BoomBox';
+ font-family: @font-face;
  font-size:1rem;
  font-weight:400;
  line-height:1.5;
